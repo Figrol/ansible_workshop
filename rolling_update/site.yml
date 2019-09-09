@@ -8,7 +8,7 @@
 
   - name: update kernel
     yum:
-      name: kernel
+      name: vim
       state: latest
     register: kernel_patch
 
