@@ -8,7 +8,7 @@
 
   - name: update kernel
     yum:
-      name: '*'
+      name: kernel
       state: latest
     register: kernel_patch
 
